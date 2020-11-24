@@ -1,4 +1,18 @@
 
+    to = 1;
+    function tog(){
+        
+        if(to == 1){document.getElementById('tog1').style.transform = 'rotate(30deg)';
+document.getElementById('tog1').style.margin = '0px 0px 0 -15px';
+document.getElementById('tog1').style.width = '30px';
+document.getElementById('tog2').style.transform = 'rotate(-30deg)';
+document.getElementById('tog2').style.margin = '0px 0px 0 -15px';to += 1;
+                  }else{document.getElementById('tog1').style.transform = 'rotate(0deg)';
+document.getElementById('tog1').style.margin = '-5px 0px 0 -15px';
+document.getElementById('tog1').style.width = '11px';
+document.getElementById('tog2').style.transform = 'rotate(0deg)';
+document.getElementById('tog2').style.margin = '5px 0px 0 -15px';to -= 1;}}
+
       function mid1(){
     pic = 4 * 4;
        u = 2;
